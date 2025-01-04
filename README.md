@@ -1,0 +1,1 @@
+This repository demonstrates a common error in shell scripts: failure to handle file permission errors gracefully. The `bug.sh` script attempts to process files using `cat`, which halts execution if a file is not readable. The `bugSolution.sh` script provides a corrected version which robustly handles such scenarios.
